@@ -25,11 +25,11 @@
 		};
 		raise {
 			bindings = <
-				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp   F5     &kp   F6     &kp F7 &kp F8 &kp F9 &kp F10   &kp F11  &kp F12    &trans  &bootloader
-				&trans     &trans &trans &trans &trans &trans       &trans       &trans &trans &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK   &trans
-				&trans      &trans &trans &trans &trans &k C_BRI_INC &kpC_BRI_DEC &trans &trans &trans &kp HOME  &kp END                   &trans
-				&bt BT_CLR   &trans &trans &trans &trans &trans       &trans       &trans &trans &trans &trans          &kp C_PP           &trans
-				&bt BT_PRV &bt BT_NXT  &trans                    &trans                    &kp C_MUTE &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT
+				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp   F5      &kp   F6      &kp F7 &kp F8 &kp F9 &kp F10   &kp F11  &kp F12    &trans  &bootloader
+				&trans     &trans &trans &trans &trans &trans        &trans        &trans &trans &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK   &trans
+				&trans      &trans &trans &trans &trans &kp C_BRI_INC &kp C_BRI_DEC &trans &trans &trans &kp HOME  &kp END                   &trans
+				&bt BT_CLR   &trans &trans &trans &trans &trans        &trans        &trans &trans &trans &trans          &kp C_PP           &trans
+				&bt BT_PRV &bt BT_NXT  &trans                    &trans                      &kp C_MUTE &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
